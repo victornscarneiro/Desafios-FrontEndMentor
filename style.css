@@ -6,7 +6,7 @@
     text-decoration: none;
     box-sizing: border-box;
     outline: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 /* Desktop*/
@@ -55,28 +55,28 @@ main{
         }
 
         main #columnLeft h1{
-            font-size: 60px;
+            font-size: 75px;
             font-weight: 700;
             color: #FFFFFF;
         }
 
         main #columnLeft h2{
             font-size: 25px;
-            font-weight: 500;
+            font-weight: 600;
             color: #FFFFFF;
         }
 
         main #columnLeft h3{
-            font-size: 20px;
-            font-weight: 500;
+            font-size: 25px;
+            font-weight: 600;
             color: #FFFFFF;
         }
 
         main #columnLeft p{
-            font-size: 15px;
-            font-weight: 400;
+            font-size: 20px;
+            font-weight: 600;
             color: #CCCFFF;
-            padding: 0% 16%;
+            padding: 0% 18%;
         }
         
     main #columnRight{
@@ -102,6 +102,8 @@ main{
     main #columnRight ul{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 80%;
     }
 
@@ -118,36 +120,44 @@ main{
         padding: 0% 5%;
     }
 
-    main #columnRight li section{
+    main #columnRight li div{
         display: flex;
         align-items: center;
-        padding: 8%;
+        padding: 5%;
     }
     
-    main #columnRight li section img{
+    main #columnRight li div img{
         display: flex;
         align-items: center;
-        padding-right: 15%;
+        padding-right: 10%;
     }
 
     main #columnRight #reaction{
         background-color: #FFF6F5;
         border-radius: 13px;
+        color: #F6666A;
     }
 
     main #columnRight #memory{
         background-color: #FFFBF2;
         border-radius: 13px;
+        color: #fcbc4e;
     }
 
     main #columnRight #verbal{
         background-color: #F2FBFA;
         border-radius: 13px;
+        color: #21B18D;
     }
 
     main #columnRight #visual{
         background-color: #F3F3FD;
         border-radius: 13px;
+        color: #232997;
+    }
+
+    main #columnRight p{
+        color: black;
     }
 
     button{
